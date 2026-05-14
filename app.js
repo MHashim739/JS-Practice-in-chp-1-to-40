@@ -98,5 +98,22 @@
     
 // }
 
-var monts = [1,2.2,3 ,"first","second",false ,12,"World"];
-console.log(typeof(monts[monts.length-1]));
+// var monts = [1,2.2,3 ,"first","second",false ,12,"World"];
+// console.log(typeof(monts[monts.length-1]));
+
+// for (var i=10; i>=5; i--){
+//     console.log("hello World!"+i);
+    
+// }
+// for(var j=1; j<=10; j++){
+//     console.log("World"+j);
+    
+// }
+
+// click event ankar tag
+function showCard(){
+    document.getElementById("card").style.display="block";
+}
+function hideCard(){
+    document.getElementById("card").style.display="none"
+}

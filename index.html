@@ -4,9 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice JS</title>
-    <script src="./app.js"></script>
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+    <!-- click event ankar tag -->
+    <div class="menu">
+
+    <a href="#" id="account-link" onmouseover="showCard()" onmouseout="hideCard()" >
+        Account & Lists
+    </a>
+
+    <div class="card" id="card">
+
+        <button>Sign in</button>
+
+        <p>
+            New customer?
+            <a href="#">Start here.</a>
+        </p>
+
+        <hr>
+
+        <div class="card-content">
+
+            <div>
+                <h3>Your Lists</h3>
+
+                <p>Create a List</p>
+                <p>Find a List or Registry</p>
+            </div>
+
+            <div>
+                <h3>Your Account</h3>
+
+                <p>Account</p>
+                <p>Orders</p>
+                <p>Recommendations</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+ <script  src="./app.js"></script>
 </body>
 </html>
