@@ -4,7 +4,7 @@ body{
 }
 
 /* click event ankar tag */
-.menu{
+/* .menu{
     position: relative;
     width: 200px;
     margin: 100px;
@@ -43,4 +43,26 @@ body{
 .card-content{
     display: flex;
     justify-content: space-between;
+} */
+
+/* 2 onmouse over practice */
+
+/* .lang-menu{
+    position: relative;
+    width: 120px;
 }
+
+.dropdown{
+
+    width: 250px;
+    background-color: white;
+    border: 1px solid #ccc;
+
+    position: absolute;
+    top: 30px;
+    left: 0;
+
+    display: none;
+
+    padding: 20px;
+} */

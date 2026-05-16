@@ -111,9 +111,28 @@
 // }
 
 // click event ankar tag
-function showCard(){
-    document.getElementById("card").style.display="block";
-}
-function hideCard(){
-    document.getElementById("card").style.display="none"
-}
+// function showCard(){
+//     document.getElementById("card").style.display="block";
+// }
+// function hideCard(){
+//     document.getElementById("card").style.display="none"
+// }
+
+// js 2 onmouseover practice 2
+
+
+
+// var menu = document.querySelector(".lang-menu");
+// var dropdown = document.querySelector(".dropdown");
+
+// menu.onmouseover = function(){
+
+//     dropdown.style.display = "block";
+
+// }
+
+// menu.onmouseout = function(){
+
+//     dropdown.style.display = "none";
+
+// }
