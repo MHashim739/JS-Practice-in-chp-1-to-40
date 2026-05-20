@@ -111,12 +111,12 @@
 // }
 
 // click event ankar tag
-// function showCard(){
-//     document.getElementById("card").style.display="block";
-// }
-// function hideCard(){
-//     document.getElementById("card").style.display="none"
-// }
+function showCard(){
+    document.getElementById("card").style.display="block";
+}
+function hideCard(){
+    document.getElementById("card").style.display="none"
+}
 
 // js 2 onmouseover practice 2
 
@@ -136,8 +136,3 @@
 //     dropdown.style.display = "none";
 
 // }
-$('.lazy').slick({
-  lazyLoad: 'ondemand',
-  slidesToShow: 3,
-  slidesToScroll: 1
-});

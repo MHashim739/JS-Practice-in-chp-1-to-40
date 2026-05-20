@@ -3,8 +3,8 @@ body{
     font-family: Arial;
 }
 
-/* click event ankar tag */
-/* .menu{
+/* click event ankar tag  */
+.menu{
     position: relative;
     width: 200px;
     margin: 100px;
@@ -43,7 +43,7 @@ body{
 .card-content{
     display: flex;
     justify-content: space-between;
-} */
+}
 
 /* 2 onmouse over practice */
 
@@ -67,10 +67,10 @@ body{
     padding: 20px;
 } */
 
-.your-class div{
+/* .your-class div{
     background-color: black;
     color: white;
     margin: 10px;
     padding: 50px;
     text-align: center;
-}
+} */
